@@ -1,7 +1,7 @@
 import express from 'express';
 import { join } from 'path';
 import open from 'open';
-import webpack from webpack;
+import webpack from 'webpack';
 import config from '../webpack.config.dev';
 
 var port = 3000;
