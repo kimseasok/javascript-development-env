@@ -6,7 +6,8 @@
     "prestart": "babel-node buildScripts/startMessage.js",
     "open:src": "babel-node buildScripts/startMessage.js",
     "start": "babel-node buildScripts/srcServer.js",
-    "security-check": "nps check"
+    "security-check": "nps check",
+    "lint": "esw webpack.config.* src buildScripts"
   },
   "author": "Cory House",
   "license": "MIT",
