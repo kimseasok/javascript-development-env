@@ -9,8 +9,8 @@ const json = JSON.stringify(jsf(schema));
 
 fs.writeFile("./src/api/db.json", json, (err) => {
   if (err) {
-    return console.log(chalk.red(err));
+    return console.log(chalk.red(err)); // eslint-disable-line no-console
   } else {
-    console.log(chalk.green("Mock data generated"));
+    console.log(chalk.green("Mock data generated")); // eslint-disable-line no-console
   }
 });
