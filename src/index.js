@@ -1,5 +1,6 @@
 /* eslint-disable import/namespace */
 import {getUsers, deleteUser} from './api/userApi';
+import './style.css';
 
 getUsers().then(result => {
   let usersBody = "";
